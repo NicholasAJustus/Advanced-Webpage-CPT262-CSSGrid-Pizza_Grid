@@ -1,0 +1,71 @@
+img{
+	width: 100%;
+}
+figure{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: rgb(0, 0, 128);
+}
+main{
+	background-color: rgb(173, 216, 230);
+	margin: 0 auto;
+	width: 97%;
+	text-align: center;
+	margin-top: 215px;
+}
+header{
+	min-height: 100vh;
+	padding: 15px;
+}
+section{
+	min-height: 100vh;
+	padding: 215px 10px 0 10px;
+}
+section:nth-child(even){
+	background-color: rgb(255, 255, 255);
+}
+nav{
+	position: fixed;
+	top: 0px;
+	width: 97%;
+	background-color: rgb(0, 0, 128);
+	margin-left: 0;
+}
+nav ul{
+	padding-left: 5px;
+	list-style: none;
+}
+nav ul li a{
+	display: block;
+	padding: 10px 10px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid black;
+	text-align: center;
+	text-decoration: none;
+}
+nav ul li a:link{
+	color: rgb(0, 0, 128);
+}
+nav ul li a:visited{
+	color: rgb(0, 128, 0);
+}
+nav ul li a:hover{
+	background-color: rgb(128, 128, 128);
+	color: rgb(255, 255, 255);
+}
+form{
+	text-align: left;
+}
+textarea{
+	width: 95%;
+	max-width: 600px;
+	height: 400px;
+}
+footer{
+	background-color: rgb(255, 255, 255);
+}
+footer ul{
+	list-style-type: none;
+}
